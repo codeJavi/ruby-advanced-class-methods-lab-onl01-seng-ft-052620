@@ -1,18 +1,18 @@
 
   
   def self.create
-    song = Song.new
+    song = Song.create 
     song.save
     song
   end
 
-  def self.new_by_name(song_name)
+  def self.new_by_name("The Middle")
     song = self.new
     song.name = song_name
     song
   end
 
-  def self.create_by_name(song_name)
+  def self.create_by_name("The Middle")
     song = self.create
     song.name = song_name
     song
