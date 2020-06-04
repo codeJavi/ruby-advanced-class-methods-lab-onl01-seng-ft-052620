@@ -57,4 +57,4 @@
     self.all.clear
   end
 
-end	end
+end
