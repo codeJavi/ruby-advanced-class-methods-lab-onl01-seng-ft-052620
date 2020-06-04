@@ -1,5 +1,5 @@
-self.class.all << self
-     end
+  self.class.all << self
+end
   
   
   def self.create
